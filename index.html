@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple eCommerce</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Tag Manager (init dataLayer) -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+  </script>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MJ77LXH8');</script>
+    <!-- End Google Tag Manager -->
+</head>
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJ77LXH8"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+  <h1>🎉 Event Tickets Store</h1>
+
+  <div class="product-list">
+    <div class="product" data-id="1" data-name="Concert Ticket" data-price="499"
+         data-url="https://example.com/concert-ticket"
+         data-image="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=600&q=80">
+      <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=600&q=80" alt="Concert Ticket">
+      <h2>Concert Ticket</h2>
+      <p>Price: ₹499</p>
+      <button class="view-btn">👁️ View</button>
+      <button class="add-btn">🛒 Add to Cart</button>
+    </div>
+  
+    <div class="product" data-id="2" data-name="Festival Pass" data-price="999"
+         data-url="https://example.com/festival-pass"
+         data-image="https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?auto=format&fit=crop&w=600&q=80">
+      <img src="https://images.unsplash.com/photo-1508921912186-1d1a45ebb3c1?auto=format&fit=crop&w=600&q=80" alt="Festival Pass">
+      <h2>Festival Pass</h2>
+      <p>Price: ₹999</p>
+      <button class="view-btn">👁️ View</button>
+      <button class="add-btn">🛒 Add to Cart</button>
+    </div>
+  
+    <div class="product" data-id="3" data-name="Workshop Entry" data-price="299"
+         data-url="https://example.com/workshop-entry"
+         data-image="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=600&q=80">
+      <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=600&q=80" alt="Workshop Entry">
+      <h2>Workshop Entry</h2>
+      <p>Price: ₹299</p>
+      <button class="view-btn">👁️ View</button>
+      <button class="add-btn">🛒 Add to Cart</button>
+    </div>
+  </div>
+  
+  <hr />
+
+  <h2>🛒 Cart</h2>
+  <ul id="cart-items"></ul>
+  <button id="checkout-btn">✅ Checkout</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
